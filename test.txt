@@ -1,1 +1,9 @@
+Description of test:
 
+1. Set up a test directory containing 3 files of each classification (document, image, or video) and include 1 set of duplicates.
+2. Run the program on test directory.
+3. Check if program asks user to delete duplicate files or not.
+4. Check if sorted files go the correct, recently created subfolder.
+
+
+*** I will create the test directory to download.
