@@ -1,4 +1,4 @@
-# Final_Project_BCOG200
+# BCOG200-Automatic-File-Sorter
 ### Final Project
 
 
