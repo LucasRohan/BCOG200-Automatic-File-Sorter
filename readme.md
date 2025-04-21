@@ -59,3 +59,87 @@ Data input:
     Documents: .pdf, .docx, .txt, .doc, .xlsx, .xls, .pptx, .ppt, .rtf
     Images: .jpg, .jpeg, .gif, .png, .bmp, .tiff, .webp
     Videos: .mp4, .mov, .avi, .mkv, .wmv, .flv
+
+--
+Project Check-In #3:
+
+I will be using 100 total points to self-evaluate my progress.
+
+Concept (5 points) – 5 points
+    - Project requirements met. I believe I can complete this project in code. 
+    It interests me and will serve a beneficial purpose upon completion as my 
+    computer files are extremely disorganized. 
+
+File Structure (5 points) – 5 points
+    - I have clear file organization including a documentation file as well as 
+    a python file which is separate from the test file. All extensions of files 
+    make sense. Repository name is in kebab case. 
+
+Project Description (10 points) – 10 points
+    - Clear description of project. Organized by paragraphs and bullet points. 
+    Written in markdown and easy to read. Titled ‘readme.md’.
+
+Approach (20 points) – 15 points
+    - Using relevant modules including os module, hashlib module (which I read 
+    about online as a way to detect duplicate files), time/datetime module(s), 
+    and the pathlib from Path module.
+    - I believe that my way of approaching the file sorting is well-chosen for 
+    sorting each file into the correct place.
+    - At the moment I am unsure how to properly implement my approach as I have 
+    not yet dug into the actual pathways and file manipulations I need to use 
+    to achieve my goal.
+
+Project Code (30 points) – 18 points
+    - I believe my current skeleton code does use appropriate variable types. 
+    If needed when fleshing it out, I can easily change variable types.
+    - I am unsure whether my current skeleton code uses appropriate code 
+    constructs. I believe it most likely has correct operators, conditionals, 
+    and loops. It is the error handling that is so far that is incomplete and 
+    has no progress as of now. 
+    - Code is well organized into several distinct functions that call upon each 
+    other in a specific correct order.
+    - I only have skeleton code as of now so the code does not execute.
+    - There is a clear and well organized modular structure to the code.
+
+Code Style (10 points) – 6 points
+    - Uses blank lines to separate functions and logic well.
+    - Has good indentation and spacing when needed.
+    - Due to unfinished skeleton code, I do not have idiomatic python code at 
+    the moment.
+    - Skeleton code does not have any line that will be too long in the finished 
+    product.
+    - Naming:
+        - Unfinished so names are not complete.
+        - Does follow python naming conventions.
+        - Does and will use PascalCase when needed.
+
+Code Documentation (10 points) – 5 points
+    - My code includes documentation of what each function is supposed to do 
+    and how so. This could be more in detail and explained better as well as it 
+    could be spread out between specific lines.
+
+Code Tests (10 points) – 4 points
+    - Created a test_pkg file that can be used to test the entire code upon 
+    completion.
+    - Tests:
+        - Test for the full file list after scanning the directory that confirms 
+        it does not skip files or return files with incorrect paths.
+        - Test for each file type. Confirms if a document, image, or video is 
+        determined as the correct type of file so that they can be sorted 
+        correctly.
+        - Tests if duplicate files can actually be detected. Tests the hash of 
+        the same file twice, if it returns the same value, it is confirmed a 
+        duplicate.
+
+Extra Credit (5 points) – 3 points
+    - To detect duplicates, the internet has suggested the use of hashes which 
+    I was unfamiliar with previously due to this module not included in the 
+    course material. I am learning about them as I continue progress on this 
+    project. It is much harder to learn content not in the textbook as it is 
+    explained many different ways on the internet instead of a succinct and 
+    clear learning pathway as in the textbook.
+
+Run As-is Requirement – Not met
+    - Requirement not met as I still have much skeleton code to flesh out.
+
+Total Points (100 points) – 71 Earned points (71%)
