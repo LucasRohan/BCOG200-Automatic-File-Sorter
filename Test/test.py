@@ -1,10 +1,8 @@
 import os
 import pytest
-from main import scan_directory
-from main import get_file_type
-from main import file_hash
+from main import scan_directory, get_file_type, file_hash, DOCUMENTS, IMAGES, VIDEOS
 
-test_pkg = path to this 
+test_pkg = '/Users/lucasrohan/Documents/BCOG200/Final_Project/BCOG-Automatic-File-Sorter/Test/test_pkg'
 
 def test_confirm_scanned_file_list():
     expected_files = []
@@ -60,3 +58,5 @@ def test_hash_duplicates():
     ### Calls file_hash() from main.py
 
     assert test_file_1_hash == test_file_2_hash, 'Hashes do not match. Duplicate not found.'
+
+### Run using pytest test_duplicates.py

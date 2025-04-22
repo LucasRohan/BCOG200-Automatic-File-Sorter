@@ -17,17 +17,17 @@ def scan_directory(directory_path):
     return file_list
 
 ###     def get_file_type -- Loops through list of all_dir_files and sorts them into either document_list, image_list, or video_list based on the file extension (.txt, .pdf, .jpeg, .png, .mp4, ...)
-def get_file_type(file_name, file_list):
+def get_file_type(file_list):
     document_list = []
     image_list = []
     video_list = []
     for file in file_list
         get file extension
-            if file ext in DOCUMENTS
+            if file ext in DOCUMENTS:
                 append document_list
-            if file ext in IMAGES
+            if file ext in IMAGES:
                 append image_list
-            if file exxt in VIDEOS
+            if file exxt in VIDEOS:
                 append video_list
     return document_list, image_list, video_list
 
