@@ -1,5 +1,6 @@
 import os
 import pytest
+import sys
 from main import scan_directory, get_file_type, file_hash, DOCUMENTS, IMAGES, VIDEOS
 
 test_pkg = '/Users/lucasrohan/Documents/BCOG200/Final_Project/BCOG-Automatic-File-Sorter/Test/test_pkg'
