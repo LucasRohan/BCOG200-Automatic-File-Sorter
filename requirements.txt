@@ -1,5 +1,1 @@
-Modules needed include:
-    os, hashlib, shutil, datetime, csv, and pytest
-
-Environment used:
-    Python 3.13.1
+pytest==8.3.4
